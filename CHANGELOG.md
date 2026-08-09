@@ -6,6 +6,8 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-08-09
+
 ### Added
 
 - Heading count.
@@ -19,7 +21,7 @@ The project follows Semantic Versioning.
 - Added validation for missing and invalid file paths.
 - Added user-friendly errors for unreadable files.
 
-## [0.1.0]
+## [0.1.0] - 2026-08-09
 
 ### Added
 
