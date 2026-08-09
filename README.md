@@ -8,13 +8,32 @@ A simple command line tool to get statistics of markdown files.
 mdstats <file_path> 
 ```
 
-## Development
+## Installation
 
-Sync the project environment with the following command:
+### From PyPI
 
 ```bash
+uv tool install mdstats
+```
+
+Alternatively:
+```bash
+pipx install mdstats
+```
+
+### From source
+
+Clone the repository and create the development environment:
+
+```bash
+git clone https://github.com/brainthra/mdstats.git
+cd mdstats
 uv sync
 ```
+
+## Development
+
+Clone from the repository and create the development environment.
 
 Run the application:
 

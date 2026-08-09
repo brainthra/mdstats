@@ -6,6 +6,8 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-08-09
+
 ## Added
 
 - GitHub Actions continuous integration.

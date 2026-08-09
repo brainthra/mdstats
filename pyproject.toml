@@ -1,6 +1,6 @@
 [project]
 name = "mdstats"
-version = "0.3.0"
+version = "1.0.0"
 description = "A simple command line tool to get statistics of markdown files."
 readme = "README.md"
 authors = [
