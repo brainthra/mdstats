@@ -6,6 +6,8 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-08-09
+
 ### Added
 
 - Automated tests with pytest.
