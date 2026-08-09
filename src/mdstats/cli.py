@@ -1,3 +1,5 @@
+"""Command-line interface for mdstats."""
+
 import argparse
 from pathlib import Path
 
@@ -5,6 +7,7 @@ from mdstats.stats import calculate_stats
 
 
 def create_parser() -> argparse.ArgumentParser:
+    """Create and configure the command-line argument parser."""
     parser = argparse.ArgumentParser(
         prog="mdstats",
         description="Display statistics for a Markdown file.",
@@ -20,6 +23,7 @@ def create_parser() -> argparse.ArgumentParser:
 
 
 def main() -> None:
+    """Run the mdstats command-line application."""
     parser = create_parser()
     args = parser.parse_args()
 
