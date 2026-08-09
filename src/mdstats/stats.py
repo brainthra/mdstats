@@ -1,5 +1,5 @@
-from dataclasses import dataclass
 import re
+from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
@@ -24,11 +24,7 @@ def calculate_stats(text: str) -> TextStats:
 
 
 def count_headings(text: str) -> int:
-    return sum(
-        1
-        for line in text.splitlines()
-        if re.match(r"^#{1,6}\s+", line)
-    )
+    return sum(1 for line in text.splitlines() if re.match(r"^#{1,6}\s+", line))
 
 
 def count_links(text: str) -> int:
@@ -36,10 +32,6 @@ def count_links(text: str) -> int:
 
 
 def count_code_blocks(text: str) -> int:
-    fences = sum(
-        1
-        for line in text.splitlines()
-        if line.strip().startswith("```")
-    )
+    fences = sum(1 for line in text.splitlines() if line.strip().startswith("```"))
 
     return fences // 2

@@ -6,6 +6,14 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+
+- Automated tests with pytest.
+- Linting and formatting with Ruff.
+- Static type checking with Pyright.
+- Development dependency group added.
+- Tests for core statistics and CLI behaviour.
+
 ## [0.2.0] - 2026-08-09
 
 ### Added
