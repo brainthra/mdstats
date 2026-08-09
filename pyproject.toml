@@ -1,0 +1,17 @@
+[project]
+name = "mdstats"
+version = "0.1.0"
+description = "A simple command line tool to get statistics of markdown files."
+readme = "README.md"
+authors = [
+    { name = "brainthra", email = "96686520+brainthra@users.noreply.github.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+mdstats = "mdstats:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
