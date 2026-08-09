@@ -9,7 +9,9 @@ The project follows Semantic Versioning.
 ## Added
 
 - GitHub Actions continuous integration.
+- CI testing across supported Python versions.
 - CI checks for formatting, linting, typing, tests, and package builds.
+- Automated PyPI publication workflow.
 
 ## [0.3.0] - 2026-08-09
 
