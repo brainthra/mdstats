@@ -6,6 +6,19 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+### Added
+
+- Heading count.
+- Markdown link count.
+- Fenced code-block count.
+- File path in command output.
+
+### Changed
+
+- Improved CLI help and argument handling.
+- Added validation for missing and invalid file paths.
+- Added user-friendly errors for unreadable files.
+
 ## [0.1.0]
 
 ### Added
