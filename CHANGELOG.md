@@ -6,6 +6,11 @@ The project follows Semantic Versioning.
 
 ## [Unreleased]
 
+## Added
+
+- GitHub Actions continuous integration.
+- CI checks for formatting, linting, typing, tests, and package builds.
+
 ## [0.3.0] - 2026-08-09
 
 ### Added
